@@ -1,4 +1,4 @@
-package kapitel01;
+package JavaUebung01;
 
 // Kreisberechnung: Für einen Kreis mit dem Radius 5 cm werden der Umfang und der Flächeninhalt berechnet 
 
