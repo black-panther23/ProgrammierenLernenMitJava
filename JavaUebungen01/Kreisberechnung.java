@@ -5,13 +5,12 @@ package JavaUebung01;
 
 public class Kreisberechnung {
     public static void main(String[] args) {
-        double radius, umfang, inhalt;
-        radius = 5.0;
-        umfang = 2.0 * 3.1415926 * radius;
-        inhalt = 3.1415926 * radius * radius;
+        var radius = 5.0;
+        var umfang = 2.0 * 3.1415926 * radius;
+        var flaeche = 3.1415926 * radius * radius;
         System.out.print("Umfang: ");
         System.out.println(umfang);
-        System.out.print("Flaeche: ");
-        System.out.println(inhalt);
+        System.out.print("Fläche: ");
+        System.out.println(flaeche);
     }
 }
