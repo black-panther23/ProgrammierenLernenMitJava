@@ -5,7 +5,7 @@ package JavaUebungen01;
 
 public class Kreisberechnung2 {
     public static void main(String[] args) {
-        var radius = Double.parseDouble(args[0]);
+        var radius = Double.parseDouble(args[0]);       //Initialisierung des Startparameter radius als Argument (args)
         var umfang = 2.0 * 3.1415926 * radius;
         var flaeche = 3.1415926 * radius * radius;
         System.out.print("Umfang: ");

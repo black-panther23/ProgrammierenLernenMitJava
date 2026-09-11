@@ -6,7 +6,7 @@ package JavaUebungen01;
 
 public class Kreisberechnung3 {
     public static void main(String[] args) {
-        var einheit = args[1];
+        var einheit = args[1];                              //Hier wird der 2. Parameter, also die Masseinheit, initialisiert
         var radius = Double.parseDouble(args[0]);
         var umfang = 2.0 * 3.1415926 * radius;
         var flaeche = 3.1415926 * radius * radius;
@@ -15,6 +15,6 @@ public class Kreisberechnung3 {
         System.out.println(" " + einheit);
         System.out.print("Fläche: ");
         System.out.print(flaeche);
-        System.out.println(" " + einheit + '\u00b2');
+        System.out.println(" " + einheit + '\u00b2');       //Damit das Hoch2 korrekt ausgegeben wird, wird das '\u00b2' benötigt
     }
 }

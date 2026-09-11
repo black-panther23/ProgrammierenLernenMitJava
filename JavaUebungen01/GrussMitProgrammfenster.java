@@ -10,12 +10,12 @@ public class GrussMitProgrammfenster extends JFrame {
         super("Hallo");
 
 
-        var icon = new ImageIcon("JavaUebungen01/Panda.jpg");
+        var icon = new ImageIcon("JavaUebungen01/Panda.jpg");               // Pfad zum Bild muss auch den Ordner enthalten bei dieser Struktur
         var label1 = new JLabel("Viel Erfolg beim", JLabel.CENTER);
         var label2 = new JLabel("Programmieren mit Java!", JLabel.CENTER);
         var label3 = new JLabel(icon);
 
-        var schrift = new Font("SansSerif", Font.BOLD, 24);
+        var schrift = new Font("SansSerif", Font.BOLD, 23);
         label1.setFont(schrift);
         label1.setForeground(Color.black);
         label2.setFont(schrift);
@@ -29,7 +29,7 @@ public class GrussMitProgrammfenster extends JFrame {
         c.add(label3);
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(300,350);
+        setSize(300,350);                                           // Anpassung Grösse aufgrund Masse des Bildes
         setVisible(true);
     }
 
