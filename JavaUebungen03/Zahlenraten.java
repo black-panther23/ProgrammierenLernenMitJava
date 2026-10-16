@@ -6,7 +6,6 @@ import javax.swing.JOptionPane;
 
 public class Zahlenraten {
     public static void main(String[] args) {
-        var zahl = 6;
         var eingabezahl = Integer.parseInt(JOptionPane.showInputDialog("Erraten Sie eine Zahl zwischen 1 und 10:"));
         switch (eingabezahl) {
 	    case 6:
