@@ -8,9 +8,9 @@ public class ZahlendreieckWhile {
         var ausgabe = "";
 
         while (zahl < 10) {
-            ausgabe = ausgabe + zahl;
+            ausgabe = ausgabe + zahl;        //Die Ausgabe wird um die aktuelle Zahl erweitert
             System.out.println(ausgabe);
-            zahl++;
+            zahl++;                         //Aktuelle Zahl wird um 1 erhöht
         }
     }
     
