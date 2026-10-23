@@ -7,20 +7,20 @@ import javax.swing.JOptionPane;
 public class ggtEuklid {
     public static void main(String[] args) {
 
-    var eingabe = JOptionPane.showInputDialog("Geben Sie den Wert m ein:"); //Defintion der Variable "eingabe"
-    var m = Integer.parseInt(eingabe);										//Definition des Variablenwerts m
-    eingabe = JOptionPane.showInputDialog("Geben Sie den Wert n ein:");	   
-	var n = Integer.parseInt(eingabe);										//Definition des Variablenwerts n
-	var r = Integer.parseInt();
+    var eingabe = JOptionPane.showInputDialog("Geben Sie eine ganze Zahl für m ein: ");
+	var m = Integer.parseInt(eingabe);
+	System.out.println("m = " + m);
+	eingabe = JOptionPane.showInputDialog("Geben Sie eine ganze Zahl für n ein: ");
+	var n = Integer.parseInt(eingabe);
+	System.out.println("n = " + n);
+	var r = m % n;
 
-	  while (r > 0) {		//Berechnung nur bei ungleichen Werten
+	while (r > 0) {
 	    m = n;
 		n = r;
-		r = m%n;
-		
-	    }
+		r = m % n;
 	}
-	System.out.println("n = " + n);
-    }
+	System.out.println("ggT = " + n);
 
+	}
 }
