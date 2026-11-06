@@ -19,4 +19,5 @@ public class Bruch {
         }
         zaehler /=n; //in n steht jetzt der ggT
         nenner /=n;
+    }
 }
