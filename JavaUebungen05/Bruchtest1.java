@@ -5,9 +5,10 @@ public class Bruchtest1 {
         
         Bruch b = new Bruch();
         b.zaehler = 3;
-        b.nenner = 4;
+        b.nenner = 12;
         b.ausgeben();
-        b.nenner = 5;
+        System.out.print("\n Und nach dem Kürzen: ");
+        b.kuerzen();
         b.ausgeben();
     }
 }
