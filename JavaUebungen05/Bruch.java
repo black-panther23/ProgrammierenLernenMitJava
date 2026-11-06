@@ -5,6 +5,6 @@ public class Bruch {
     int nenner;
 
     void ausgeben() {
-        System.out.print(zaehler + "/" + nenner);
+        System.out.println(zaehler + "/" + nenner);
     }
 }
