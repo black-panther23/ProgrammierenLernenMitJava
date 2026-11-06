@@ -6,7 +6,8 @@ public class Bruchtest1 {
         Bruch b = new Bruch();
         b.zaehler = 3;
         b.nenner = 4;
-        System.out.println("Bruch b = " + b.zaehler + "/" + b.nenner);
+        b.ausgeben();
+        b.nenner = 5;
+        b.ausgeben();
     }
-
 }
