@@ -8,7 +8,6 @@ public class Bruchtest1 {
         b.nenner = 12;
         b.ausgeben();
         System.out.print("\n Und nach dem Kürzen: ");
-        b.kuerzen();
-        b.ausgeben();
+        b.gekuerztausgeben();
     }
 }
